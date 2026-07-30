@@ -32,6 +32,26 @@
       "continue": true
     },
     {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "next-action",
+          "value": "401549cbcc5fcaee11c0c6a4b207b48e9c0531e94d"
+        }
+      ],
+      "transforms": [
+        {
+          "type": "request.headers",
+          "op": "append",
+          "target": {
+            "key": "x-server-action-name"
+          },
+          "args": "app/action/downloade.js#downloadRequest"
+        }
+      ]
+    },
+    {
       "src": "/(?<path>.+?)(?:/)?$",
       "dest": "/$path.segments/$segmentPath.segment.rsc",
       "has": [
@@ -174,7 +194,7 @@
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|yf1_aafb9yFq6PCUkuS8p)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|e1BkgGcX6b0oCFWtWGphX)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
