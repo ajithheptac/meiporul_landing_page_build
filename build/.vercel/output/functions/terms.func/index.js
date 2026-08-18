@@ -10,9 +10,9 @@
     "static/chunks/0cz1d0mv5g_q7.js"
   ],
   "lowPriorityFiles": [
-    "static/3VXRfSrCfQPTwHbXn9-fF/_buildManifest.js",
-    "static/3VXRfSrCfQPTwHbXn9-fF/_ssgManifest.js",
-    "static/3VXRfSrCfQPTwHbXn9-fF/_clientMiddlewareManifest.js"
+    "static/Ufic6mzH9s0lVnnKqSKKm/_buildManifest.js",
+    "static/Ufic6mzH9s0lVnnKqSKKm/_ssgManifest.js",
+    "static/Ufic6mzH9s0lVnnKqSKKm/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/0ngjjvcfdu-vf.js",
