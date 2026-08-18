@@ -42,6 +42,9 @@ if (process.env.NODE_ENV !== "production" && region !== "dev1") {
   );
   process.env.NODE_ENV = "production";
 }
+if (process.env.VERCEL_SKEW_PROTECTION_ENABLED === "1" && process.env.VERCEL_DEPLOYMENT_ID && !process.env.NEXT_DEPLOYMENT_ID) {
+  process.env.NEXT_DEPLOYMENT_ID = process.env.VERCEL_DEPLOYMENT_ID;
+}
 process.env.__NEXT_PRIVATE_PREBUNDLED_REACT = "next"
 var NextServer = require("next/dist/compiled/next-server/server.runtime.prod.js").default;
 // @preserve next-server-preload-target
@@ -60,7 +63,7 @@ var serve = (handler) => async (req, res) => {
   });
 };
 module.exports = serve(nextServer.getRequestHandler());
-if ((conf.experimental?.ppr || conf.experimental?.cacheComponents) && "getRequestHandlerWithMetadata" in nextServer && typeof nextServer.getRequestHandlerWithMetadata === "function") {
+if ((conf.experimental?.ppr || conf.experimental?.cacheComponents || conf.cacheComponents) && "getRequestHandlerWithMetadata" in nextServer && typeof nextServer.getRequestHandlerWithMetadata === "function") {
   module.exports.getRequestHandlerWithMetadata = (metadata) => serve(nextServer.getRequestHandlerWithMetadata(metadata));
 }
 if (process.env.NEXT_PRIVATE_PRELOAD_ENTRIES) {

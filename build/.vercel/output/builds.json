@@ -6,7 +6,10 @@
     "/home/praveen/Praveen/Project/DB-Tool/porfolio/node_modules/.bin/vercel",
     "build"
   ],
-  "cliVersion": "51.8.0",
+  "cliVersion": "59.1.4",
+  "detectedFramework": {
+    "status": "skipped"
+  },
   "builds": [
     {
       "require": "@vercel/next",
