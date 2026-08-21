@@ -1,0 +1,18 @@
+{
+  "runtime": "edge",
+  "name": "privacy-portal",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "assets": [],
+  "framework": {
+    "slug": "nextjs",
+    "version": "16.2.11"
+  },
+  "environment": {
+    "__NEXT_BUILD_ID": "4SgLnQCbtV5m1bns6nm35",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "c/58W/Ps6+3x/HPegGMHFbLene1So5IwB+ejjtyehiA=",
+    "__NEXT_PREVIEW_MODE_ID": "83bbd435054f0920cb37819732248dc4",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "22daa862f49b6735b27ba618d42b929dbefba51fe434c5499fd68528a94eb3fd",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "f7eb26b4dc956f2036be81fea522bd254b7fbab611bcdaddcceee23288579702"
+  }
+}
