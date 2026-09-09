@@ -1,0 +1,28 @@
+{
+  "runtime": "edge",
+  "name": "opengraph-image",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "assets": [
+    {
+      "name": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf",
+      "path": "assets/server/edge/assets/Geist-Regular.05-7db9wczy07.ttf"
+    }
+  ],
+  "framework": {
+    "slug": "nextjs",
+    "version": "16.2.11"
+  },
+  "environment": {
+    "__NEXT_BUILD_ID": "92d3xrnWHhzprFYe2xf32",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "hcMxQw5aZ3j9bcNjE65J2BfcHNwjCvJ/Miva3keKAZM=",
+    "__NEXT_PREVIEW_MODE_ID": "85801aaafa8fef14ba887b03616e7c7a",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b3a2e1a92f71b31e9933500d61aafae220d50e038a73948b48b9060190216c89",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "6c07c97bd547e481d52ad383b7b3fc02123fe777ce8066e410ce010551d155d1"
+  },
+  "filePathMap": {
+    "wasm/wasm_10a187050363648b49a36c79d5266d2c.wasm": ".next/server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_yoga_0athij3.wasm",
+    "wasm/wasm_151b7f7b511bd6dda63695d2c75c87a3.wasm": ".next/server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_resvg_0athij3.wasm",
+    "assets/server/edge/assets/Geist-Regular.05-7db9wczy07.ttf": ".next/server/edge/assets/Geist-Regular.05-7db9wczy07.ttf"
+  }
+}
