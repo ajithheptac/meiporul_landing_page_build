@@ -6,7 +6,10 @@
     "/home/ajith/1.Ajith/Hepta/Product/db_tool/db_tool_porfolio/node_modules/.bin/vercel",
     "build"
   ],
-  "cliVersion": "51.8.0",
+  "cliVersion": "59.13.1",
+  "detectedFramework": {
+    "status": "skipped"
+  },
   "builds": [
     {
       "require": "@vercel/next",
