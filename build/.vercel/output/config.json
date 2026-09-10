@@ -174,7 +174,7 @@
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|bHB\\-chBA0AAybZpUd5HIq)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|NAlkQuUnglbXlhIR9aWGF)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
@@ -287,7 +287,8 @@
     }
   },
   "framework": {
-    "version": "16.2.11"
+    "slug": "nextjs",
+    "version": "16.3.4"
   },
   "crons": []
 }

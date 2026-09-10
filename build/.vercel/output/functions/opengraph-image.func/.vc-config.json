@@ -11,14 +11,14 @@
   ],
   "framework": {
     "slug": "nextjs",
-    "version": "16.2.11"
+    "version": "16.3.4"
   },
   "environment": {
-    "__NEXT_BUILD_ID": "bHB-chBA0AAybZpUd5HIq",
-    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "hcMxQw5aZ3j9bcNjE65J2BfcHNwjCvJ/Miva3keKAZM=",
-    "__NEXT_PREVIEW_MODE_ID": "85801aaafa8fef14ba887b03616e7c7a",
-    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b3a2e1a92f71b31e9933500d61aafae220d50e038a73948b48b9060190216c89",
-    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "6c07c97bd547e481d52ad383b7b3fc02123fe777ce8066e410ce010551d155d1"
+    "__NEXT_BUILD_ID": "NAlkQuUnglbXlhIR9aWGF",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "tZ5Pde6g6ZZa7iSUvuCJwWLJmeyyBRubkFMTUYP2jg4=",
+    "__NEXT_PREVIEW_MODE_ID": "1675759eb5d633a866ae2f3d4e2ccc95",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "08ceae3ce663bebd1d5dd37a8c132589a77bdf0f4e322bd3725ca5fcceca72fb",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "bff08fba522338d6f3bea2c7a697ba8842acbb5070c0521b72ec66c279ce7a13"
   },
   "filePathMap": {
     "wasm/wasm_10a187050363648b49a36c79d5266d2c.wasm": ".next/server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_yoga_0athij3.wasm",
