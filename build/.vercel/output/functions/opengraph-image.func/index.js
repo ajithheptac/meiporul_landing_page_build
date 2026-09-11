@@ -11,9 +11,9 @@ const wasm_151b7f7b511bd6dda63695d2c75c87a3 = require("/wasm/wasm_151b7f7b511bd6
     "static/chunks/0cz1d0mv5g_q7.js"
   ],
   "lowPriorityFiles": [
-    "static/NAlkQuUnglbXlhIR9aWGF/_buildManifest.js",
-    "static/NAlkQuUnglbXlhIR9aWGF/_ssgManifest.js",
-    "static/NAlkQuUnglbXlhIR9aWGF/_clientMiddlewareManifest.js"
+    "static/30sWLJo3mE1reyVejRJ7E/_buildManifest.js",
+    "static/30sWLJo3mE1reyVejRJ7E/_ssgManifest.js",
+    "static/30sWLJo3mE1reyVejRJ7E/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/3hdyzpgp_npr-.js",
