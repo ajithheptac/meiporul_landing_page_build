@@ -1,0 +1,22 @@
+{
+  "runtime": "edge",
+  "name": "[slug]",
+  "deploymentTarget": "v8-worker",
+  "entrypoint": "index.js",
+  "assets": [],
+  "framework": {
+    "slug": "nextjs",
+    "version": "16.3.4"
+  },
+  "environment": {
+    "__NEXT_BUILD_ID": "RrJmEJnt7xa3PwvBBGeyx",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "uqEW3fV1sIzyaLDKTltt4C8xclurFLlHL6iVdxjEASA=",
+    "__NEXT_PREVIEW_MODE_ID": "91c764cc72c642d5ddde924f5c161876",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "954fb97c55ba0604b29d64b737dba3f3912e978ab700f1d3743799f023fcd033",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "ded93fadd03b47a9afe74dd46b9aed7041d2eb8f5a752c710598c8ca5dd68b18"
+  },
+  "filePathMap": {
+    "wasm/wasm_10a187050363648b49a36c79d5266d2c.wasm": ".next/server/edge/chunks/ssr/node_modules_next_dist_compiled_@vercel_og_yoga_0athij3.wasm",
+    "wasm/wasm_151b7f7b511bd6dda63695d2c75c87a3.wasm": ".next/server/edge/chunks/ssr/node_modules_next_dist_compiled_@vercel_og_resvg_0athij3.wasm"
+  }
+}

@@ -171,10 +171,22 @@
       "override": true
     },
     {
+      "src": "^/(?<nxtPslug>[^/]+?)(?<rscSuffix>\\.rsc|\\.prefetch\\.rsc|\\.segments/.+\\.segment\\.rsc)(?:/)?$",
+      "dest": "/[slug]$rscSuffix?nxtPslug=$nxtPslug",
+      "check": true,
+      "override": true
+    },
+    {
+      "src": "^/(?<nxtPslug>[^/]+?)(?:/)?$",
+      "dest": "/[slug]?nxtPslug=$nxtPslug",
+      "check": true,
+      "override": true
+    },
+    {
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|30sWLJo3mE1reyVejRJ7E)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|RrJmEJnt7xa3PwvBBGeyx)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
